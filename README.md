@@ -1,6 +1,6 @@
 # Google Interface Design Project
 
-This project is a design of the Google interface using HTML and SASS.
+This project is a design of the Google interface using HTML and SASS (this project is part of the CS50W course)
 
 ## Features
 
