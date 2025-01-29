@@ -2,35 +2,38 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="sass_style.css">
 
     </head>
     <body>
-        <div class="navbar">
             <ul>
                 <li><a href="asearch.html">Advanced Search</a></li>
                 <li><a href="image.html">Image Search</a></li>
             </ul>
-        </div>
-        <div class="main">
+
+
+        <section class="main">
             <div class="logo">
                 <img src="googlelogo.png" alt="Logo" width="272" height="92">
             </div>
 
             <div class="search-box">
 
-                <form style="text-align: center;" action="https://google.com/search">    
+                <form action="https://google.com/search">    
                        
                         <input type="text" name="q"autofocus required>
-                        <input type="submit" value="Search">
-                        <button type="submit" name="btnI">I’m Feeling Lucky</button>
+                        <div class="buttons">
+                            <input type="submit" value="Search">
+                            <button type="submit" name="btnI">I’m Feeling Lucky</button>
+
+                        </div>
                         
                 </form>
                 
 
             </div>
 
-        </div>
+        </section>
         
         
     </body>

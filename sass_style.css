@@ -1,0 +1,63 @@
+section, section .search-box, section .search-box form {
+  display: flex;
+  flex-direction: column; }
+
+ul, section .search-box form .buttons {
+  display: flex; }
+
+ul {
+  justify-content: end; }
+
+section, section .search-box form .buttons {
+  justify-content: center;
+  align-items: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, sans-serif; }
+
+ul {
+  gap: 2rem;
+  padding: 3rem; }
+  ul li {
+    list-style-type: none;
+    border: 1px solid transparent; }
+    ul li a {
+      color: black;
+      text-decoration: none;
+      font-size: 1.5rem; }
+    ul li a:hover {
+      text-decoration: underline; }
+
+section {
+  margin-top: 10rem;
+  gap: 2rem; }
+  section .search-box {
+    gap: 1rem;
+    width: 50%; }
+    section .search-box form {
+      gap: 1rem; }
+      section .search-box form input[type="text"] {
+        width: 100%;
+        padding: 1.5rem 1rem;
+        border-radius: 2.4rem;
+        outline: none;
+        border: 1px solid #dfe1e5; }
+      section .search-box form input[type="text"]:hover {
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-color: transparent; }
+      section .search-box form .buttons {
+        gap: 1rem; }
+        section .search-box form .buttons input[type="submit"],
+        section .search-box form .buttons button[type="submit"] {
+          color: #3c4043;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          padding: 0.5rem 1rem; }
+
+/*# sourceMappingURL=sass_style.css.map */

@@ -1,83 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <title>Advanced search</title>
-    <link rel="stylesheet" href="asearch.css">
+    <link rel="stylesheet" href="sass_asearch.css">
 </head>
+
 <body>
 
-        <header>
+    <header>
 
-            <div class="navbar">
-                <ul>
-                    <li><a href="index.html">Google Search</a></li>
-                    <li class="logo"><a href="index.html"><img src="googlelogo.png" alt="Logo" width="100" height="30"></a></li>
-                </ul>
-            <p style="color: #d93025; font-size: 30px;">Advanced Search</p>    
+        <div class="navbar">
+            <ul>
+                <li class="logo"><a href="index.html"><img src="googlelogo.png" alt="Logo" width="100" height="30"></a>
+                </li>
+
+                <li><a href="index.html">Google Search</a></li>
+            </ul>
+            <p>Advanced Search</p>
+        </div>
+
+    </header>
+
+    <form action="https://www.google.com/search">
+
+        <div class="head">
+            <p>Find pages with...</p>
+        </div>
+
+        <section class="line">
+
+            <div class="il">
+                <div class="linec">
+                    <label for="text">all these words:</label>
+                    <label for="text">this exact word or phrase:</label>
+                    <label for="text">any of these words:</label>
+                    <label for="text">none of these words:</label>
+                </div>
+
+                <div class="linec">
+                    <input type="text" autofocus name="as_q">
+                    <input class="input" type="text" name="as_q">
+                    <input class="input" type="text" name="as_q">
+                    <input class="input" type="text" name="as_q">
+                </div>
             </div>
 
-        </header>
-
-      <form  action="https://www.google.com/search" >
-
-        <div class="main">
-
-            <div class="head">
-                <p>Find pages with...</p>
-            </div>
-
-            <div class="line">
-                
-
-                    <div class="linec">
-                        <label for="text">all these words:</label>
-                    </div>
-                    
-                    <div class="linec">
-                        <input type="text" autofocus name="as_q">
-                    </div>
-            </div>
-
-            <div class="line">
-
-                    <div class="linec">
-                        <label for="text">this exact word or phrase:</label>
-                    </div>
-                    
-                    <div class="linec">
-                        <input class="input" type="text" name="as_q">
-                    </div>
-            </div>
-            <div class="line">
-
-                    <div class="linec">
-                        <label for="text">any of these words:</label>
-                    </div>
-                    
-                    <div class="linec">
-                        <input class="input" type="text" name="as_q">
-                    </div>
-            </div>
-            <div class="line">
-
-                    <div class="linec">
-                        <label for="text">none of these words:</label>
-                    </div>
-                    
-                    <div class="linec">
-                        <input class="input" type="text" name="as_q">
-                    </div>
-            </div>
 
             <div class="btn">
-                    <input type="submit"  value="Advanced Search">
+                <input type="submit" value="Advanced Search">
             </div>
 
-        </div>
-      </form>
-       
+        </section>
+    </form>
 
-    
+
+
 </body>
+
 </html>

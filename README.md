@@ -8,13 +8,6 @@ This project is a design of the Google interface using HTML and SASS.
 - Responsive design for mobile and desktop views
 - Styled using modern CSS techniques with SASS
 
-## Files
-
-## Files
-- `index.html`: The main file that contains the structure of the Google interface.
-- `image.html`: A file that demonstrates image search functionalities.
-- `asearch.html`: A file that demonstrates advanced search functionalities.
-
 ## Installation
 
 1. Clone the repository:

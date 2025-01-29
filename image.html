@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="image.css">
+        <link rel="stylesheet" href="sass_style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     </head>
@@ -12,25 +12,26 @@
                 <li><a href="index.html">Google Search</a></li>
             </ul>
         </div>
-        <div class="main">
+        <section class="main">
             <div class="logo">
                 <img src="googlelogo.png" alt="Logo" width="272" height="92">
             </div>
 
             <div class="search-box">
 
-                <form style="text-align: center;" action="https://www.google.com/search?site=imghp&tbm=isch&q=">
+                <form action="https://www.google.com/search?site=imghp&tbm=isch&q=">
                         
                         <input type="hidden" name="tbm" value="isch">
-                        <input type="text" name="q"  autofocus required>
-                        <input type="submit" value="Search">
-                        
-
+                        <input type="text" name="q"  autofocus required >
+                        <div class="buttons">
+                            <input type="submit" value="Search Image">
+                        </div>
+    
                 </form>
 
             </div>
 
-        </div>
+        </section>
         
         
     </body>
