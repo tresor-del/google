@@ -15,7 +15,7 @@ This project is a design of the Google interface using HTML and SASS.
     git clone https://github.com/tresor-del/google.git
     ```
     ```
-2. Open `index.html` in your browser to view the project.
+2. Move to html directory and open `index.html` in your browser to view the project.
 
 ## Usage
 
